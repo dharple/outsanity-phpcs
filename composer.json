@@ -2,12 +2,17 @@
     "name": "dharple/outsanity-phpcs",
     "description": "My personal PHPCS rules",
     "type": "library",
-    "license": "BSD 2-Clause License",
+    "license": "BSD-2-Clause",
     "authors": [
         {
             "name": "Doug Harple",
             "email": "dharple@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "config": {
+        "sort-packages": true
+    }
 }
