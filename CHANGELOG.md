@@ -6,5 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-- PSR-12 + Short Array Syntax
-
+- PSR-12
+  - Enforce short array syntax
+  - Extend line length
+- Sanity checks
