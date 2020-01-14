@@ -1,0 +1,2 @@
+# outsanity-phpcs
+PHPCS rules
