@@ -21,7 +21,7 @@
         </properties>
     </rule>
     <rule ref="Generic.Formatting.SpaceAfterCast" />
-    <rule ref="Ork.Sniffs.Formatting" />
+    <rule ref="vendor/ork/phpcs/Ork/Sniffs/Formatting" />
     <rule ref="Squiz.Strings.DoubleQuoteUsage" />
     <rule ref="Squiz.WhiteSpace.CastSpacing" />
 
