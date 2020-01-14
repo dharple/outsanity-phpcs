@@ -20,6 +20,9 @@
             <property name="absoluteLineLimit" value="0" />
         </properties>
     </rule>
+    <rule ref="Generic.Formatting.SpaceAfterCast" />
+    <rule ref="Squiz.Strings.DoubleQuoteUsage" />
+    <rule ref="Squiz.WhiteSpace.CastSpacing" />
 
     <!-- Sanity Checks -->
     <rule ref="Generic.Classes.DuplicateClassName" />
