@@ -1,0 +1,13 @@
+{
+    "name": "dharple/outsanity-phpcs",
+    "description": "My personal PHPCS rules",
+    "type": "library",
+    "license": "BSD 2-Clause License",
+    "authors": [
+        {
+            "name": "Doug Harple",
+            "email": "dharple@gmail.com"
+        }
+    ],
+    "require": {}
+}
