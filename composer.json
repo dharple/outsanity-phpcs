@@ -15,5 +15,12 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "scripts": {
+        "lint": [
+            "xmllint Outsanity/ruleset.xml --output Outsanity/ruleset.xml",
+            "sed -i -e s'@\"/>@\" />@' Outsanity/ruleset.xml",
+            "git diff --stat -- Outsanity/ruleset.xml"
+        ]
     }
 }
