@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+### Fixed
+- Properties weren't being checked for indentation.  Enabled the sniff property
+  "exact" on Generic.WhiteSpace.ScopeIndent, which seemed to fix it.
+
 ## [0.2.1] - 2020-01-15
 ### Fixed
 - Switched from 0.0.0 to v0.0.0 tags.
