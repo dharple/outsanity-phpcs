@@ -1,6 +1,6 @@
 {
-    "name": "dharple/outsanity-phpcs",
-    "description": "My personal PHPCS rules",
+    "name": "outsanity/phpcs",
+    "description": "The Outsanity PHPCS rules",
     "type": "library",
     "license": "BSD-2-Clause",
     "authors": [
