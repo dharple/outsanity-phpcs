@@ -26,6 +26,10 @@
 
     <!-- Formatting -->
     <rule ref="Generic.Arrays.DisallowLongArraySyntax" />
+    <rule ref="Generic.Commenting.DocComment">
+        <exclude name="Generic.Commenting.DocComment.TagValueIndent" />
+        <exclude name="Generic.Commenting.DocComment.ParamNotFirst" />
+    </rule>
     <rule ref="Generic.Files.LineLength">
         <properties>
             <property name="lineLimit" value="160" />
@@ -34,6 +38,33 @@
     </rule>
     <rule ref="Generic.Formatting.SpaceAfterCast" />
     <rule ref="vendor/ork/phpcs/Ork/Sniffs/Formatting" />
+    <rule ref="Squiz.Commenting.BlockComment">
+        <exclude name="Squiz.Commenting.BlockComment.WrongStart" />
+    </rule>
+    <rule ref="Squiz.Commenting.ClassComment" />
+    <rule ref="Squiz.Commenting.DocCommentAlignment" />
+    <rule ref="Squiz.Commenting.EmptyCatchComment" />
+    <rule ref="Squiz.Commenting.FileComment">
+        <exclude name="Squiz.Commenting.FileComment.MissingPackageTag" />
+        <exclude name="Squiz.Commenting.FileComment.SpacingAfterOpen" />
+    </rule>
+    <rule ref="Squiz.Commenting.FunctionComment">
+        <exclude name="Squiz.Commenting.FunctionComment.IncorrectParamVarName" />
+        <exclude name="Squiz.Commenting.FunctionComment.InvalidReturn" />
+    </rule>
+    <rule ref="Squiz.Commenting.FunctionCommentThrowTag" />
+    <rule ref="Squiz.Commenting.InlineComment">
+        <exclude name="Squiz.Commenting.InlineComment.DocBlock" />
+        <exclude name="Squiz.Commenting.InlineComment.SpacingAfter" />
+        <exclude name="Squiz.Commenting.InlineComment.NotCapital" />
+        <exclude name="Squiz.Commenting.InlineComment.InvalidEndChar" />
+    </rule>
+    <rule ref="Squiz.Commenting.PostStatementComment" />
+    <rule ref="Squiz.Commenting.VariableComment">
+        <exclude name="Squiz.Commenting.VariableComment.IncorrectVarType" />
+        <exclude name="Squiz.Commenting.VariableComment.TagNotAllowed" />
+        <exclude name="Squiz.Commenting.VariableComment.VarOrder" />
+    </rule>
     <rule ref="Squiz.Strings.DoubleQuoteUsage" />
     <rule ref="Squiz.WhiteSpace.CastSpacing" />
 

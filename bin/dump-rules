@@ -1,0 +1,36 @@
+#!/bin/sh
+
+CONFIG=phpcs.xml
+
+if [ -f $CONFIG ] ; then
+	echo "This file needs to overwrite phpcs.xml to work.  Please move the existing phpcs.xml out of the way and re-run this command."
+	exit
+fi
+
+if [ -z "$1" ] ; then
+	echo "Please specify a target directory"
+	exit 1
+fi
+
+TARGET=$1
+
+if [ ! -d "$TARGET" ] ; then
+	echo "$TARGET is not a directory"
+	exit
+fi
+
+for RULEDUMP in $(find $TARGET/ -maxdepth 1 -name '*-ruleset.txt') ; do
+	mv -v $RULEDUMP $RULEDUMP.bak
+done
+
+echo
+
+for RULESET in $(find -name 'ruleset.xml') ; do 
+	NAME="$TARGET/$(basename $(dirname $RULESET))-ruleset.txt"
+	echo exporting $RULESET to $NAME
+	cp $RULESET $CONFIG
+	vendor/bin/phpcs -e > $NAME
+done
+
+rm $CONFIG
+
