@@ -16,10 +16,10 @@ be used side-by-side if the need arises.
 
 ## Tests
 
-Unit tests live in `tests\Unit\`.
+Unit tests live in `tests`.
 
-Test namespace prefix is `\Outsanity\Tests\Unit\`, with the understanding that
-they will not be imported between projects.
+Test namespace prefix is `\Outsanity\ProjectOrLibrary\Tests\`, with the
+understanding that they will not be imported between projects.
 
 ---
 
