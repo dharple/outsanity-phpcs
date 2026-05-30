@@ -11,9 +11,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added composer.json hint to let phpcs know we're a standard. h/t [Rodrigo Primo]
 
+### Fixed
+
+- Squiz's ClassComment doesn't support tags (needed for Eloquent), so
+  TagNotAllowed is disabled.
+- Squiz's FunctionComment doesn't support generics, so IncorrectTypeHint is
+  disabled. 🫤
+
 ### Removed
 
 - Removed deprecated rules.
+- Removed rules forcing comments for the sake of comments.
 
 ## [1.0.0] - 2026-05-30
 
