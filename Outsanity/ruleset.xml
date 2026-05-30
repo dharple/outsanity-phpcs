@@ -69,6 +69,7 @@
     <rule ref="Squiz.Commenting.PostStatementComment" />
     <rule ref="Squiz.Commenting.VariableComment">
         <exclude name="Squiz.Commenting.VariableComment.IncorrectVarType" />
+        <exclude name="Squiz.Commenting.VariableComment.MissingVar" />
         <exclude name="Squiz.Commenting.VariableComment.TagNotAllowed" />
         <exclude name="Squiz.Commenting.VariableComment.VarOrder" />
     </rule>
