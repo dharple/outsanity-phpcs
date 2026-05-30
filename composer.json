@@ -10,8 +10,8 @@
         }
     ],
     "require": {
-        "ork/phpcs": "^2.10.0",
-        "squizlabs/php_codesniffer": "^3.13.4"
+        "ork/phpcs": "^3.0.1",
+        "squizlabs/php_codesniffer": "^4.0.1"
     },
     "config": {
         "sort-packages": true,
