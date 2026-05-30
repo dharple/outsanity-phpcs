@@ -37,7 +37,7 @@
         </properties>
     </rule>
     <rule ref="Generic.Formatting.SpaceAfterCast" />
-    <rule ref="vendor/ork/phpcs/Ork/Sniffs/Formatting" />
+    <rule ref="Ork.Formatting" />
     <rule ref="Squiz.Commenting.BlockComment">
         <exclude name="Squiz.Commenting.BlockComment.WrongStart" />
     </rule>
@@ -90,7 +90,6 @@
     <rule ref="Generic.Files.OneClassPerFile" />
     <rule ref="Generic.Files.OneInterfacePerFile" />
     <rule ref="Generic.Files.OneTraitPerFile" />
-    <rule ref="Generic.Functions.CallTimePassByReference" />
     <rule ref="Generic.Metrics.CyclomaticComplexity" />
     <rule ref="Generic.Metrics.NestingLevel" />
     <rule ref="Generic.PHP.BacktickOperator" />

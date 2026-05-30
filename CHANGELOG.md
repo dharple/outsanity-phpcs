@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Added composer.json hint to let phpcs know we're a standard. h/t [Rodrigo Primo]
+
+### Removed
+
+- Removed deprecated rules.
+
 ## [1.0.0] - 2026-05-30
 
 ### Added
@@ -74,3 +82,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.1.0]: https://github.com/dharple/outsanity-phpcs/releases/tag/v0.1.0
 
 [phpcs coding standard]: https://github.com/squizlabs/PHP_CodeSniffer/wiki/Coding-Standard-Tutorial
+[Rodrigo Primo]: https://github.com/rodrigoprimo
